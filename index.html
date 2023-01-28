@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUSUF MSHELIA KASHIM - PORTFOLIO</title>
+    <style type="text/css">
+        * { margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navigation {
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #4c0c47;
+        }
+
+        .navigation div a {
+            color: #ffffff;
+            font-size: 20px;
+            font-style: normal;
+            text-decoration: none;
+
+        }
+
+        .navigation div {
+            margin: 0 15px;
+            color: white;
+        }
+
+        .header {
+            background: #4c0c5c;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .header p {
+            color: #ffffff;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .header img {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            margin-bottom: 10px;
+        }
+        
+        .main {
+            margin: 1.5em 7em;
+        }
+
+        .container {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0px;
+        }
+
+        .skill, .project {
+            width: 200px;
+            text-align: center;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        .skill:hover {
+            background: #4c0c5c;
+            color: #f1f1f1;
+        }
+
+        .project:hover {
+            background: #4c0c5c;
+            color: #f1f1f1;
+        }
+
+        .footer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #4c0c5c;
+            margin-top: 15px;
+            padding: 15px;
+        }
+
+        input[type=text], input[type=email], textarea,button{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #4c0c5c;
+            color: #ffffff;
+        }
+
+        @media screen and (max-width: 600px) {
+            .skills {
+                flex-direction: column;
+                height: auto;
+                margin-top: 20px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .projects {
+                flex-direction: column;
+                height: auto;
+                margin-top: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div><a href="index.html"> YUSOUF</a></a></div>
+        <div> || </div>
+        <div><a href="#who"> ABOUT </a></a></div>
+    </div>
+
+    
+    <div class="header">
+        <img src="IMG_0565-1.jpg" title="" alt="My Profile Pic">
+        <P> Hello, i'm YUSOUF. A Security Analysist and a Developer</P>
+    </div>
+
+    <div class="main">
+        
+        <div class="container">
+            <h2> ABOUT </h2>
+            <p>Hi i'm Yusuf Mshelia Kashim, a level 3 cyber security  student from Bayero University Kano (BUK) </p>
+        </div>
+    
+        <div class="container">
+            <h2> SKILLS </h2>
+            <p> Protecting informtion and information assets from unauthourized access,use,disclosure and modification and maintaining the integrity of an information and infromation assets,</p>
+            <div class="skills">
+                <div class="skill"> HTML </div>
+                <div class="skill"> CSS </div>
+                <div class="skill"> JAVASCRIPT </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2> PROJECTS </h2>
+            <p> Authentication
+                Ensures that whoever supplies or accesses sensitive data is an authorized party.
+                Confidentiality
+                Assures that only authorized parties are able to understand the data.
+                Integrity
+                Ensures that when a message is sent over a network, the message that arrives is the same as the message that was originally sent.
+                Nonrepudiation
+                Ensuring that the intended recipient actually received the message & ensuring that the sender actually sent the message.
+            </p>
+            <div class="projects">
+                <div class="project"> Project 1 </div> 
+                <div class="project"> Project 2 </div>
+                <div class="project"> Project 3 </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="footer">
+        <h2 style="text-align:center; color:white;"> Contact Me </h2>
+        <form >
+            <input type="text" name="Fullname" placeholder="Enter Fullname" size="60"><br>
+            <input type="email" name="email" placeholder="Enter email"size="50"><br>
+            <textarea name="message"4></textarea><br>
+            <button type="button">submit</button>
+        </form>
+        <p style="color:white; margin-top: 10px; font-style: italic;"> Design by: 4TF </p>
+    </div>
+
+</body>
+</html>
